@@ -1,33 +1,8 @@
-@font-face {
-    font-family : "Lato";
-    src         : url("./assets/fonts/lato/Lato-Regular.ttf") format("truetype");
-    font-weight : 400;
-}
-
-@font-face {
-    font-family : "Lato";
-    src         : url("./assets/fonts/lato/Lato-Bold.ttf") format("truetype");
-    font-weight : 700;
-}
-
-@font-face {
-    font-family : "Merriweather";
-    src         : url("./assets/fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
-    font-weight : 400;
-}
-
-@font-face {
-    font-family : "Merriweather";
-    src         : url("./assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
-    font-weight : 700;
-}
-
 body {
     font-family: "Lato", sans-serif;
     max-width: 1080px;
     margin: 0 auto;   
 }
-
 
 .topnav {
     margin-top: 48px;
