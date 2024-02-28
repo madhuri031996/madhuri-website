@@ -31,3 +31,27 @@ body {
 .topnav-right {
     float: right;
 }
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 10%;
+}
+
+.intro-content {
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 42px;
+    margin: 0%;
+}
+
+.highlight {
+    color: #a0025c;
+}
+
+.profile-image {
+    margin-left: 5%;
+    width: 35%;
+    filter: grayscale(100%);
+}
