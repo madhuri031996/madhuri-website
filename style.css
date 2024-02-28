@@ -1,7 +1,33 @@
-h1 {
-    color: blue;
+body {
+    font-family: "Calibre", sans-serif; 
+    max-width: 1080px;
+    margin: 0 auto;   
 }
 
-.primary-heading {
-    color :gray;
+
+.topnav {
+    margin-top: 48px;
+    overflow: hidden;
+    font-weight: 400;
+    background-color: white;
+}
+
+.topnav a {
+    color: #1B1B1B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    color: #e2429d;
+}
+
+.topnav a.active {
+    color: #a0025c;
+}
+
+.topnav-right {
+    float: right;
 }
