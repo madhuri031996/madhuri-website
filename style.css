@@ -1,12 +1,24 @@
 @font-face {
     font-family : "Lato";
-    src         : url("./assets/fonts/Lato-Regular.ttf") format("truetype");
+    src         : url("./assets/fonts/lato/Lato-Regular.ttf") format("truetype");
     font-weight : 400;
 }
 
 @font-face {
     font-family : "Lato";
-    src         : url("./assets/fonts/Lato-Bold.ttf") format("truetype");
+    src         : url("./assets/fonts/lato/Lato-Bold.ttf") format("truetype");
+    font-weight : 700;
+}
+
+@font-face {
+    font-family : "Merriweather";
+    src         : url("./assets/fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
+    font-weight : 400;
+}
+
+@font-face {
+    font-family : "Merriweather";
+    src         : url("./assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
     font-weight : 700;
 }
 
@@ -33,11 +45,11 @@ body {
 }
 
 .topnav a:hover {
-    color: #e2429d;
+    color: hsl(326, 73%, 57%);
 }
 
 .topnav a.active {
-    color: #a0025c;
+    color: hsl(326, 98%, 32%);
 }
 
 .topnav-right {
@@ -59,7 +71,8 @@ body {
 }
 
 .highlight {
-    color: #a0025c;
+    font-family: "Merriweather", sans-serif;
+    color: hsl(326, 98%, 32%);
 }
 
 .profile-image {
