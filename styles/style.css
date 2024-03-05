@@ -6,7 +6,7 @@ section {
     display: flex;
 }
 
-h3,p {
+p {
     margin-top: 0;
 }
 
@@ -66,6 +66,30 @@ h3,p {
     width: 35%;
     filter: grayscale(100%);
 }
+
+.projects {
+    margin-top: 10%;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    /* width: calc(50%-10px); */
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.project-images {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
  .divider {
     border: 0.5px solid hsl(0, 0%, 73%);
     margin-top: 5%;
@@ -73,7 +97,9 @@ h3,p {
  }
 
  .contact {
-    background-color: hsl(210, 37%, 97%);
+    /* background-color: hsl(210, 37%, 97%); */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
  }
 
  .contact-info{
